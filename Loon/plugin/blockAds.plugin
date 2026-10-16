@@ -7598,10 +7598,6 @@ http:\/\/.+\.gamersky.com/.+/lists/getListElements response-body-json-jq '.listE
 # 首页横幅广告
 ^https?:\/\/mbmodule-openapi\.paas\.cmbchina\.com\/graphic\/v2\/module\/graphic reject-dict
 
-# > 浙里办
-# hostname = portal.zjzwfw.gov.cn
-^https?:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic response-body-json-replace data {}
-
 # > 正气助手
 # hostname = apio.zhengqi100.com
 # 去主界面广告
